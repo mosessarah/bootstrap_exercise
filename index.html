@@ -1,31 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Airstream</title>
 
-    <!-- Import Bootstrap 5's utility classes and components via its CDN -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airstream</title>
 
-    
-    <!-- Import fonts awesome stylesheet -->
+  <!-- Import Bootstrap 5's utility classes and components via its CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    
-    <!-- Import custom stylesheet -->
-    
+  <!-- Import fonts awesome stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  </head>
-  <body>
-    
-    <!-- Container hosting the site main navigation, and header (aka "hero") Section -->
+  <!-- Import custom stylesheet -->
+  <link rel="stylesheet" href="./styles/styles.css">
 
-    <!-- Container hosting the newsletter form -->
+</head>
 
-    <!-- Container hosting a card group component -->
+<body>
 
-    <!-- Footer hosting copyright information -->
+  <!-- Container hosting the site main navigation, and header (aka "hero") Section -->
+  <div class="container min-vh-75 p-4 fw-lighter">
+    <!-- TODO Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <!-- TODO Site Logo here -->
+          <img src="./img/logo-small.png" alt="Company Logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign-In/Login</a>
+              </li>
+            </ul>
+          </div>
 
-    <!-- Import Bootstrap 5's javascript library via its CDN -->
+          </li>
+          </li>
+          </ul>
+      </div>
+  </div>
+  </nav>
+  <!-- TODO Header (Hero Banner)-->
+  <header class="herobanner rounded-4 text-center d-flex flex-column align-items-center justify-content-center ">
 
-  </body>
+    <!-- TODO Header 1 title -->
+    <h1 class="display-1 text-white shadow-effects fw-lighter">Sole Runner </h1>
+
+    <!-- TODO Subheader 4 -->
+    <h4 class="display-6 text-white fw-lighter shadow-effects text-uppercase">Autumn Gear</h4>
+
+
+    <!-- TODO Link -->
+    <a class="btn btn-primary" href=""">Enter</a>
+  </div>
+
+  <!-- Container hosting the newsletter form -->
+   <div class=" container mt-5">
+      <!-- TODO Setup CTA to subscribe to newsletter -->
+      <div class="d-flex flex-column">
+
+        <div class="col-md-8-mx-auto">
+
+          <!-- TODO Title -->
+          <div class="text-white fw-lighte text-center">
+            Subscribe to our Newsletter:
+          </div>
+          <!-- TODO Form to submit the newsletter -->
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+              aria-describedby="basic-addon1">
+            <button class="btn btn-primary" type="submit">Send</button>
+          </div>
+          <!-- Footer hosting copyright information -->
+
+          <!-- Import Bootstrap 5's javascript library via its CDN -->
+          <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+            </script>
+          <diff class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100 border-0">
+                  <img src="./img/comfort.jpg" class="card-img-top" alt="Comfort">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a natural lead-in to additional content.
+                      This content is a little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100 border-0">
+                  <img src="./img/performance.jpg" class="card-img-top" alt="Performance">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a natural lead-in to additional content.
+                      This content is a little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100 border-0">
+                  <img src="./img/outdoor.jpg" class="card-img-top" alt="Outdoor">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a natural lead-in to additional content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </diff>
+</body>
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="./index.html" class="nav-link px-2 fw-lighter text-white">Home</a></li>
+      <li class="nav-item" <li class="nav-item"><a href="#" class="nav-link px-2 fw-lighter text-white">Features</a>
+      </li>
+      <li class="nav-item" <li class="nav-item"><a href="#" class="nav-link px-2 fw-lighter text-white">Pricing</a></li>
+      <li class="nav-item" <li class="nav-item"><a href="#" class="nav-link px-2 fw-lighter text-white">FAQs</a></li>
+      <li class="nav-item" <li class="nav-item"><a href="#" class="nav-link px-2 fw-lighter text-white">About</a></li>
+      <li class="nav-item" </ul>
+        <p class="text-center fw-lighter text-white">&copy; Airstream & Trade;. All rights reserved</p>
+  </footer>
+
+</div>
+
 </html>
